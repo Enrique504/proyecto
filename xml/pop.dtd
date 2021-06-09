@@ -1,0 +1,9 @@
+<!ELEMENT pop(orderli+,texto+)>
+<!ELEMENT orderli(lista+)>
+<!ELEMENT lista(texto+)>
+<!ELEMENT texto(#PCDATA)>
+
+
+
+
+

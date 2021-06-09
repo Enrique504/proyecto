@@ -46,9 +46,26 @@
 						<br><br>
 						<textarea rows="15" cols="54" name="comentario" required></textarea>
 					</div>
+					<script>
+                         function popup() {
+                         alert("Se ha enviado correctamente")
+                           }
+                    </script>
+                    <script>
+                        function confirmacion() {
+	                    var pregunta = confirm("¿Deseas borrar toda la información?")
+	                    if (pregunta){
+		                alert("Información borrrada")
+	                     }
+	                    else{
+		                alert("Puede seguir escribiendo")
+	                    }
+                            }
+                    </script>
+                    <a href="javascript:void(document.body.style.fontSize='20px')">Aumenta la fuente</a>
 					<div id="alinear">
-						<button type="reset" id="boton">BORRAR</button>
-						<button type="submit" id="boton">ENVIAR</button>
+						<button type="reset" id="boton" onclick="confirmacion()">BORRAR</button>
+						<button type="submit" id="boton" onclick="popup()">ENVIAR</button>
 					</div>
 				</form>
 			</div>
