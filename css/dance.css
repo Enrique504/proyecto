@@ -1,0 +1,81 @@
+body {
+	
+	background-color: rgb(225, 225, 225);
+	margin: 0;
+	padding: 0;
+	font-family: Agency FB;
+
+	
+}
+main{
+	text-align: center;
+}
+
+p{
+	font-size:20px;
+	text-align: justify;
+	margin: 20px;
+}
+
+.pop {
+	
+	display: flex;
+	
+}
+
+.img {
+
+	background-size: cover;
+	overflow: hidden;
+	padding: 2%;
+	border: 6px solid rgb(225, 225, 225);
+	
+}
+
+.caja1 {
+	
+	background-image: url('imagencss/edm1.jpg');
+	font-weight: lighter;
+	height: 268px;
+	width: 450px;
+	border: 6px solid rgb(225, 225, 225);
+	
+}
+
+.caja2 {
+	
+	background-color: rgb(235, 235, 235);
+	font-weight: lighter;
+	height: 330px;
+	width: 600px;
+	border: 6px solid rgb(225, 225, 225);
+	
+}
+
+.caja3 {
+	
+	background-image: url('imagencss/edm2.jpg');
+	font-weight: lighter;
+	height: 268px;
+	width: 450px;
+	border: 6px solid rgb(225, 225, 225);
+	
+}
+
+.caja4 {
+	
+	background-color: rgb(235, 235, 235);
+	font-weight: lighter;
+	height: 330px;
+	width: 655px;
+	border: 6px solid rgb(225, 225, 225);
+	
+}
+
+iframe {
+	margin-left: 20px;
+	width: 610px;
+	border: 5px solid coral;
+	padding: 40px;
+	
+}

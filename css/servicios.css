@@ -1,0 +1,154 @@
+
+
+nav {
+	
+	background-color: #F4A460;
+	font-size: 22px;
+	position: fixed;
+	
+}
+
+.elementos {
+	
+	width: 100%;
+	display: inline-flex;
+  	align-items: center;
+  	height:70px;
+  	font-family: Agency FB;
+	
+}
+
+ul {
+	
+	display: inline-flex;
+  	align-items: center;
+  	list-style: none;
+	
+}
+
+li a {
+	
+	text-decoration: none;
+	padding: 20px;
+	
+}
+
+.elemento {
+	
+	color: #fbdcdc;
+	
+}
+
+.elemento:hover {
+	
+	color: #e74049;
+	
+}
+
+.logo {
+	
+	margin-left: 2%;
+	margin-top: 0.3%;
+	
+}
+#titulo{
+
+	font-weight: bold;
+	text-align: center;
+	font-family: Agency FB;
+
+	
+}
+.servicios{
+
+	display: flex;
+
+}
+.info{
+
+	text-align: center;
+	border-bottom: 1px solid black;
+	font-size: 14px;
+	margin: 50px;
+
+}
+.caja1 {
+	
+	background-image: linear-gradient(rgba(245, 171, 53, 1), rgba(252, 214, 112, 1));
+	margin: 0.5%;
+	-webkit-box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	height: 500px;
+	
+	
+}
+.caja2 {
+	
+	background-color: rgb(240, 240, 240);
+	-webkit-box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	height: 500px;
+	margin: 0.5%;
+	
+}
+.caja3 {
+	
+	background-image: url(imagencss/servicio.jpg);
+	margin: 0.5%;
+	-webkit-box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	height: 500px;
+	width:1200px;
+	
+}
+.img {
+
+	-webkit-box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 10px 20px -13px rgba(0, 0, 0, 0.5);
+	height: 500px;
+	background-size: cover;
+
+}
+
+
+footer {
+
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    background-color: #212121;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border: solid 3px orange;
+
+
+}
+.redessociales img {
+
+	width: 32px;
+	height: 32px;
+	padding: 29px;
+	
+}
+#texto{
+
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+#copy{
+
+	color: orange;
+
+}
+
+body{
+	
+	margin: 0;
+}

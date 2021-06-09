@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Contactos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/contactos.css">
+	<link rel="icon" type="image/png" href="imagenes/icono.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	<header>
+		<nav class="elementos">
+			<a class="logo" href="index.html"><img src="imagenes/radio.png"></a>
+			<div class="contenido">
+				<ul>
+					<li><a class="elemento" href="servicios.html">Servicios</a></li>
+					<li><a class="elemento" href="quienessomos.html">Quienes somos</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<br><br><br><br>
+		<h1 >¿Quiere contactar con nosotros?</h1>
+		<div class="contacto">
+			<div >
+				<form method="post" >
+					<div >
+						<label for="usr">Nombre y Apellidos</label>
+						<br><br>
+						<input type="text" name="nombre" placeholder="Introduzca su nombre y apellido" required>
+					</div>
+					<div >
+						<label for="numero">Número de teléfono</label>
+						<br><br>
+						<input type="number" name="numero" placeholder="Introduzca su número de telefono" required>
+					</div>
+					<div >
+						<label for="email">Correo electrónico</label>
+						<br><br>
+						<input type="email" name="email" placeholder="Introduzca su correo electrónico" required>
+					</div>
+					<div >
+						<label for="comentario">Cuéntenos la razón por la que quiere contactar con nosotros:</label>
+						<br><br>
+						<textarea rows="15" cols="54" name="comentario" required></textarea>
+					</div>
+					<div id="alinear">
+						<button type="reset" id="boton">BORRAR</button>
+						<button type="submit" id="boton">ENVIAR</button>
+					</div>
+				</form>
+			</div>
+			<div>
+				<img id="imgcontacto" src="css/imagencss/contacto.jpg">
+			</div>
+		</div>
+	</main>
+    <footer>
+		<p id="texto">Siguenos en nuestras redes sociales</p>
+		<div class="redessociales">
+			<a href="https://twitter.com/"  target="_blank"><img src="imagenes/twitter.png"></a>
+			<a href="https://es-es.facebook.com/" target="_blank"><img src="imagenes/facebook.png"></a>
+			<a href="https://www.instagram.com/?hl=es" target="_blank"><img src="imagenes/instagram-sketched.png"></a>
+		</div>
+		<p id="copy">@ 2020 Copyright</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,216 @@
+
+.elementos{
+
+	display: inline-flex;	
+	align-items:center;
+	height: 50px;
+	
+	
+
+}
+.encabezado{
+
+	background-image: url(imagencss/principal.jpg);
+	
+	background-size: cover;
+	font-family: Agency FB;
+}
+#titulo{
+
+	font-size: 4.5em;
+	color: rgb(70,70,70);
+	padding-top: 5%;
+	padding-left: 10%;
+
+}
+.flecha{
+
+	padding-top: 21%;
+	padding-left: 47%;
+
+}
+body{
+	margin: 0px;
+}
+.logo{
+
+	width: 100px;
+	padding-top: 25px;
+	padding-left: 42px;
+
+}
+ul{
+
+	display: inline-flex;
+	align-items: center;
+	list-style: none;
+	
+
+}
+.elemento:hover{
+
+	height: 100%;
+	background-color:#FF8C00;
+	line-height: 70px;
+
+}
+li a{
+
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	padding: 70px;
+
+}
+.generosyambientes {
+
+	text-align: center;
+	font-family: Agency FB;
+	
+}
+.generos {
+	
+	display: flex;
+	
+}
+h4 {
+	
+	margin-top: 175px;
+	font-size: 45px;
+	color:white;
+	
+}
+.pop {
+	
+	background-image: url(imagencss/pop.jpg);
+	
+}
+.rock {
+	
+	background-image: url(imagencss/rock.jpg);
+	
+}
+
+.rap {
+	
+	background-image: url(imagencss/rap.jpg);
+	
+}
+
+.electronica {
+	
+	background-image: url(imagencss/electronica.jpg);
+	
+}
+
+.clasica {
+	
+	background-image: url(imagencss/clasica.jpg);
+	
+}
+
+.dance {
+	
+	background-image: url(imagencss/dance.jpg);
+	
+}
+
+.deporte {
+	
+	background-image: url(imagencss/deporte.jpg);
+	
+}
+
+.romantico {
+	
+	background-image: url(imagencss/romantico.jpg);
+	
+}
+
+.fiesta {
+	
+	background-image: url(imagencss/fiesta.jpg);
+	
+}
+
+.chill {
+	
+	background-image: url(imagencss/chill.jpg);
+	
+}
+
+.flashback {
+	
+	background-image: url(imagencss/flashback.jpg);
+	
+}
+
+.momentos {
+	
+	background-image: url(imagencss/momentos.jpg);
+	
+}
+.imagen {
+	
+	height: 400px;
+	width: 600px;
+	background-size: cover;
+	cursor: pointer;
+	border: 3px solid;
+    border-color: rgb(225, 225, 225);
+    overflow: hidden;
+
+	
+}
+.imagen:hover {
+	
+	-webkit-transform:scale(1.1);
+	transform:scale(1.1);
+	
+}
+footer {
+
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    background-color: #212121;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border: solid 3px orange;
+
+}
+
+.redessociales img {
+
+	width: 32px;
+	height: 32px;
+	padding: 29px;
+
+	
+}
+
+#texto{
+
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#copy{
+
+	color: orange;
+
+}
+
+
+
+
+
+
+
+
+
+
+
