@@ -1,0 +1,21 @@
+img{
+	background-size: cover;
+	height: 60px;
+	width: 60px;
+}
+table{
+	text-align: center;
+	
+
+}
+h1{
+	text-align: center;
+}
+
+.caja1{
+	float: left;
+
+}
+.caja2{
+	float: left;
+}

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Users/Enrique/Desktop/PaginaProyecto/xml/tabla.xsl"?>
+<generosmusicales>
+<genero origen="              Mediados del ciclo xx          ">
+<nombre>Pop</nombre>
+<foto>pop.jpg</foto>
+<enlace>https://es.wikipedia.org/wiki/Pop</enlace>
+</genero>
+<genero origen="1920 y 1940">
+<nombre>Rock</nombre>
+<foto>rock1.jpg</foto>
+<enlace>https://es.wikipedia.org/wiki/Rock</enlace>
+</genero>
+<genero origen="Nueva York en la década de 1970">
+<nombre>Rap</nombre>
+<foto>rap1.jpg</foto>
+<enlace>https://es.wikipedia.org/wiki/Rap</enlace>
+</genero>
+<genero origen="Finales del siglo XIX-principios del siglo XX.">
+<nombre>Electronica</nombre>
+<foto>elec1.jpg</foto>
+<enlace>https://es.wikipedia.org/wiki/M%C3%BAsica_electr%C3%B3nica</enlace>
+</genero>
+<genero origen=" Entre 1750 y 1820">
+<nombre>Clásica</nombre>
+<foto>clasica.jpg</foto>
+<enlace>https://es.wikipedia.org/wiki/M%C3%BAsica_cl%C3%A1sica</enlace>
+</genero>
+<genero origen="Muy popular a finales de la década de 1970">
+<nombre>Dance/Edm</nombre>
+<foto>edm1.jpg</foto>
+<enlace>https://es.wikipedia.org/wiki/Electronic_dance_musick</enlace>
+</genero>
+
+<estado >
+<nombre>Deporte</nombre>
+<foto>depor2.jpg</foto>
+</estado>
+<estado>
+<nombre>Romántico</nombre>
+<foto>romantico.jpg</foto>
+</estado>
+<estado >
+<nombre>Fiesta</nombre>
+<foto>fiesta1.jpg</foto>
+</estado>
+<estado>
+<nombre>Chill</nombre>
+<foto>chill1.jpg</foto>
+
+</estado>
+<estado>
+<nombre>Flashback</nombre>
+<foto>flas1.jpg</foto>
+
+</estado>
+<estado >
+<nombre>Momentos</nombre>
+<foto>mo1.jpg</foto>
+</estado>
+
+</generosmusicales>
